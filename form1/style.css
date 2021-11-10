@@ -80,8 +80,8 @@ form .input-field:first-child{
   transform-origin: left;
 }
 
-.input-field input:focus~ .underline::after{
-  transform: scaleX(1) ;
+.input-field input:focus ~ .underline::after{
+  transform: scaleX(1);
 }
 
 .input-field input{
