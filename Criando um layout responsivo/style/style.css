@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.header__left {
+  background-color: #FFF;
+  padding: 15px 0;
+}
+
+.header__left .menu .menu__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header__left .menu .menu__lista .menu__item {
+  margin-left: 15px;
+}
+
+.header__left .menu .menu__lista .menu__item .menu__link {
+  text-decoration: none;
+  color: #222;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+hr {
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+.title {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 24px;
+}
+
+.behind {
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  background: #f7f7f7;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 15px 15px 40px;
+  border-radius: 10px;
+  width: 95%;
+  height: 95%;
+}
+
+.polaroid .pacote {
+  text-transform: uppercase;
+  color: #666;
+  text-align: center;
+  display: block;
+  font-size: 10px;
+  margin-top: 8px;
+}
+
+.flag1 {
+  position: relative;
+}
+
+.flag1::after {
+  content: "37% OFF";
+  background-color: #ef5928;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  width: 4rem;
+  border-radius: 2px;
+}
+
+.flag2,
+.flag5 {
+  position: relative;
+}
+
+.flag2::after,
+.flag5::after {
+  content: "38% OFF";
+  background-color: #ef5928;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  width: 4rem;
+  border-radius: 2px;
+}
+
+.flag3 {
+  position: relative;
+}
+
+.flag3::after {
+  content: "31% OFF";
+  background-color: #ef5928;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  width: 4rem;
+  border-radius: 2px;
+}
+
+.flag4,
+.flag8 {
+  position: relative;
+}
+
+.flag4::after,
+.flag8::after {
+  content: "33% OFF";
+  background-color: #ef5928;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  width: 4rem;
+  border-radius: 2px;
+}
+
+.flag6 {
+  position: relative;
+}
+
+.flag6::after {
+  content: "32% OFF";
+  background-color: #ef5928;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  width: 4rem;
+  border-radius: 2px;
+}
+
+.flag7,
+.flag9 {
+  position: relative;
+}
+
+.flag7::after,
+.flag9::after {
+  content: "36% OFF";
+  background-color: #ef5928;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  width: 4rem;
+  border-radius: 2px;
+}
+
+.photo {
+  width: 100%;
+  height: 290px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.caption {
+  margin-top: 10px;
+  padding: 0 8px;
+}
+
+.caption h2 {
+  font-size: 18px;
+  color: #222;
+}
+
+.caption p {
+  color: #666;
+  font-size: 14px;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.caption .old--price {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.caption h4 {
+  color: #ef5928;
+  font-size: 24px;
+}
+
+.bottom--text {
+  margin-top: 10px;
+}
+
+.bottom--text ul {
+  list-style: none;
+}
+
+.bottom--text li {
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bottom--text p {
+  margin-top: 15px;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  color: #222;
+  font-size: 13px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */

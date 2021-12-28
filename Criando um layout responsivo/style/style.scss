@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import 'mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff
+}
+
+.header__left {
+  background-color: #FFF;
+  padding: 15px 0;
+
+  .menu {
+    .menu__lista {
+      display: flex;
+      list-style: none;
+
+      .menu__item {
+        margin-left: 15px;
+
+        .menu__link {
+          text-decoration: none;
+          color: #222;
+          font-weight: 700;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+hr{
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+.title {
+  margin-top: 25px;
+  text-align: center;
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.behind {
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  background: #f7f7f7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 15px 15px 40px;
+  border-radius: 10px;
+  width: 95%;
+  height: 95%;
+
+  .pacote {
+    text-transform: uppercase;
+    color: #666;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    margin-top: 8px;
+  }
+}
+
+.flag1 {
+  position: relative;
+
+  &::after {
+    content: "37% OFF";
+    @include flag-contents;
+  }
+}
+
+.flag2,
+.flag5 {
+  position: relative;
+
+  &::after {
+    content: "38% OFF";
+    @include flag-contents;
+  }
+}
+
+.flag3 {
+  position: relative;
+
+  &::after {
+    content: "31% OFF";
+    @include flag-contents;
+  }
+}
+
+.flag4,
+.flag8 {
+  position: relative;
+
+  &::after {
+    content: "33% OFF";
+    @include flag-contents;
+  }
+}
+
+.flag6 {
+  position: relative;
+
+  &::after {
+    content: "32% OFF";
+    @include flag-contents;
+  }
+}
+
+.flag7,
+.flag9 {
+  position: relative;
+
+  &::after {
+    content: "36% OFF";
+    @include flag-contents;
+  }
+}
+
+.photo {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.caption {
+  margin-top: 10px;
+  padding: 0 8px;
+
+  h2 {
+    font-size: 18px;
+    color: #222;
+  }
+
+  p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .old--price {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+  h4 {
+    color: #ef5928;
+    font-size: 24px;
+  }
+}
+
+.bottom--text {
+  margin-top: 10px;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 15px;
+    color: #666;
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  color: #222;
+  font-size: 13px;
+  font-weight: 700;
+}

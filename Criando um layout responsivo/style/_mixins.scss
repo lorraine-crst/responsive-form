@@ -1,0 +1,14 @@
+@mixin flag-contents{
+    background-color: #ef5928;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    position: absolute;
+    left: 1.5rem;
+    top: 2rem;
+    width: 4rem;
+    border-radius: 2px;
+}
