@@ -18,6 +18,9 @@ body {
   padding: 15px 0;
 
   .menu {
+    display: flex;
+    justify-content: space-between;
+
     .menu__lista {
       display: flex;
       list-style: none;
@@ -34,6 +37,14 @@ body {
       }
     }
   }
+
+  .header__right{
+    display: none;
+  }
+}
+
+.form__travel{
+  display: none;
 }
 
 hr{
@@ -210,3 +221,46 @@ button {
   font-size: 13px;
   font-weight: 700;
 }
+
+/*tablet*/
+@media only screen and (min-width: 768px){
+  .header__left{
+    position: relative;
+    .header__right{
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      color: #666;
+      font-size: 12px;
+      .icon--profile img{
+        width: 17px;
+        display: flex;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .form__travel{
+    display: flex;
+    margin: 30px 0 0 30px;
+    form{
+      display: flex;
+    }
+    img{
+      margin-right: 20px;
+      width: 155px;
+      height: 50px;
+    }
+    input{
+      width: 560px;
+      height: 45px;
+      border: solid 2px #e1e1e1;
+      border-radius: 5px;
+      &::placeholder{
+        color: #666;
+      }
+      
+    }
+  }
+}
+
