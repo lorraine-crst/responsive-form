@@ -370,11 +370,16 @@ button {
     display: -ms-flexbox;
     display: flex;
     margin: 30px 0 0 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .form__travel form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .form__travel img {
     margin-right: 20px;
@@ -382,7 +387,7 @@ button {
     height: 50px;
   }
   .form__travel input {
-    width: 560px;
+    width: 411px;
     height: 45px;
     border: solid 2px #e1e1e1;
     border-radius: 5px;
