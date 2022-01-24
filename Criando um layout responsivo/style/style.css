@@ -405,4 +405,10 @@ button {
     color: #666;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .form__travel input {
+    margin-left: 60px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
